@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_marginTop="80dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_marginLeft="130dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_favorite_black_24dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_favorite_black_24dp" />
+</LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Out the latest Themes that you can use in your App!!"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:textSize="24dp"
+    />
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/pink"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonpink"
+                android:text="Pink Theme"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                />
+            <Button
+                android:id="@+id/green"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttongreen"
+                android:text="Green Theme"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/orange"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonorange"
+                android:text="Orange Theme"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/black"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonblack"
+                android:text="Black Theme"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+
+</LinearLayout>

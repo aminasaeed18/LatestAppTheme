@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroungpink"
+    tools:context=".Pink">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pinklight"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="550dp">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pink   Theme"
+            />
+       <LinearLayout
+           android:layout_marginTop="252dp"
+           android:background="@drawable/buttonpinknew"
+           android:layout_gravity="bottom"
+           android:layout_width="match_parent"
+           android:layout_height="200dp">
+           <TextView
+               android:id="@+id/text2"
+               android:textSize="25dp"
+               android:textColor="#FA6D6E"
+               android:layout_marginTop="40dp"
+               android:layout_marginLeft="30dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Pink is happy color....!!!!"
+               />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
